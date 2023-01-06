@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-image: url('../images/banner/banner3.png');
+    width: 100%;
+    height: 808px;
+
+}
+
+.header-contain {
+    text-align: right;
+    padding: 250px 100px 300px 800px;
+    color: white;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.header-description {
+    margin: 10px;
+}
+
+.btn-primary {
+    margin-top: 10px;
+    color: blue;
+    border: 0;
+    font-size: 15px;
+    width: 100px;
+    height: 44px;
+    background: white;
+    border-radius: 5px;
+}
+
+.weakness {
+    display: flex;
+    margin: 150px 150px 100px;
+    gap: 20px
+}
+
+.failur {
+    padding: 300px 20px 10px;
+}
+
+.failur-description {
+    color: #444343;
+    padding: 10px 0;
+}
+
+.failur-title {
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+li {
+    list-style: none;
+    padding-bottom: 10px;
+
+}
+
+li::before {
+    content: '✓';
+    padding-right: 10px;
+    color: green;
+}
+
+.plan-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plan-section{
+    display: flex;
+    margin: 100px 150px 50px 150px;
+    gap:200px;
+    text-align: center;
+}
+/* p{
+    color: #737272;
+} */
+
+.watch-img{
+    margin: 150px 100px ;
+    background-image: url('../images/watch.png');
+    background-repeat:no-repeat;
+}
